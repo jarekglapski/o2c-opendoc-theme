@@ -1,3 +1,3 @@
-# Import your files
+# Test
 
-Documents need to be converted into markdown for it to make use of OpenDoc.
+Documents need to be written in markdown.

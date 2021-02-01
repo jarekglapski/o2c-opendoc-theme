@@ -1,12 +1,12 @@
 
-title: Opendoc Theme
-description: Jekyll Theme for Opendocs
+title: O2C Opendoc Theme
+description: O2C tailored Jekyll Theme for Opendocs
 plugins:
   - jekyll-include-cache
 baseurl: ''
 kramdown:
   auto_id_stripping: true
-repository: opendocsg/opendoc-theme
+repository: jarekglapski/opendoc-theme
 server_PROD: https://search.opendoc.sg
 server_DEV: https://search-staging.opendoc.sg
 
@@ -17,34 +17,21 @@ preload_pages: true
 hide_toolbar:
   sidebar: false
   pdf: false
-  github: false
+  github: true
 
-google_analytics: 'UA-113717369-5'
+google_analytics: ''
 styling_options:
   primary_brand_color: '#17335f'
-  logo_path: /assets/images/opendoc-logo-full.svg
-  logo_url: https://opendoc.sg
-  feedback_url: null
+  logo_path: /assets/images/logo-order2cash.svg
+  logo_url: https://order2cash.com
+  feedback_url: https://www.order2cash.com/about-us/contact-form/
 
 folders:
   - name: '/'
-    title: 'something'
+    title: 'Intro'
     subtitle: this is a subtitle
-    order:
-      - contribute.md
-      - import-files.md
-  - name: '2019_SGHC 120'
-    title: 'Shanker Maghalingam v Public Prosecutor'
-    subtitle: hello
-    order:
-      - contribute.md
-      - import-files.md
-      - report.md
-  - name: 'Docu ment2'
-    title: 'Document two'
-    subtitle: 'something 2'
   - name: 'Document 1'
-    title: 'jefiojweofjofjwoefj'
+    title: 'test title'
     order:
       - contribute.md
       - introduction.md
